@@ -1,0 +1,54 @@
+form{
+    width: 40%;
+    min-height: 40rem;
+    background: white;;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+    padding: 4rem;
+    font-size: 1.5rem;
+    gap: 1rem;
+    border-radius: 5px;
+}
+
+form label{
+    border-bottom: 2px solid black;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input{
+    display: block;
+    width: 30ch;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    background: #EEEEEE;
+}
+
+textarea{
+    height: 13ch;
+    width: 100%;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    font-family: sans-serif;
+    padding: 1rem 2rem;
+    resize: none;
+    background: #EEEEEE;
+}
+
+.submit{
+    background:black;
+    color: #EEEEEE;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
